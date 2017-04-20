@@ -1,0 +1,196 @@
+/*CSS RESET*/
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+/*MAIN LAYOUT*/
+html {
+	background:url("background-pattern.png") repeat;
+}
+
+body {
+	margin: 50px auto;
+	width: 780px;
+	border-radius: 20px;
+	background-color: white;
+	font-family: sans-serif;
+	box-shadow: 0 5px 12px 5px rgba(0, 0, 0, 0.3);
+}
+
+/*LINKS E BUTTONS*/
+a {
+	text-decoration: none;
+	padding: 4px;
+	margin: 0 12px;
+}
+
+a:hover {
+	font-weight: bold;
+	background-color: #FFA900;
+}
+
+button {
+	font-weight: bold;
+}
+
+button:hover {
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+a, button {
+	background-color: #FF9800;
+	color: white;
+	border-radius: 3px;
+}
+
+/*INPUTS*/
+textarea, input, select {
+	border: 1px solid #CFD8DC;
+}
+
+textarea {
+	width: calc(100% - 24px);
+	resize: vertical;
+	min-height: 250px;
+	padding: 15px;
+  font-size: 25px;
+}
+
+label {
+	display: block;
+	color: #455A64;
+	margin-bottom: 10px;
+}
+
+select {
+	width: 150px;
+}
+
+select option {
+	height: 30px;
+	padding: 12px 6px 0 6px;
+}
+
+/*CABEÇALHO E RODAPÉ*/
+header {
+	border-radius: 10px 10px 0 0;
+}
+
+footer {
+	border-radius: 0 0 10px 10px;
+}
+
+header h1 {
+	font-size: 25px;
+	margin-bottom: 15px;
+}
+
+header h1, footer p {
+	color: white;
+}
+
+header, footer {
+	background-color: #455A64;
+	padding:  20px 30px;
+	text-align: center;
+}
+
+nav ul {
+	list-style-type: none;
+}
+
+nav ul li {
+	display: inline-block;
+}
+
+/*CONTEÚDO PRINCIPAL*/
+main, .container {
+	padding: 30px;
+}
+
+.container {
+	text-align: center;
+	border-radius: 10px;
+	border: 1px solid #607D8B;
+}
+
+.container h1 {
+	margin-bottom: 15px;
+	color: #455A64;
+}
+
+.clearfix {
+	overflow: auto;
+}
+
+/*Calculadora*/
+.inputs, .buttons {
+	float: left;
+}
+
+.inputs {
+	float: left;
+	margin-right: 5px;
+	width: 70%;
+}
+
+.input-calc-number {
+	height: 25px;
+	text-align: center;
+	float: right;
+	margin: 5px;
+}
+
+.input-result {
+	height: 30px;
+	width: 350px;
+}
+
+.calc-button {
+	height: 29px;
+	width: 29px;
+	margin: 5px;
+}
+
+/*Cursos*/
+.chosen-courses {
+	float: right;
+}
+
+.available-courses {
+	float: left;
+}
+
+/*Tabelas*/
+table {
+	margin: 0 auto 60px auto;
+	border-collapse: collapse;
+	text-align: left;
+	width: 100%;
+}
+
+thead, hr {
+	border-bottom: 2px solid #CFD8DC;
+}
+
+tr {
+	border-bottom: 1px solid #CFD8DC;
+}
+
+tr:hover td {
+	color: #FF9800;
+}
+
+th, td {
+	padding: 10px 10px;
+}
+
+hr {
+	margin: 20px 0;
+}
+
+.export-button {
+	padding: 10px;
+}

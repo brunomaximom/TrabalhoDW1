@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8"/ />
+		<title>Cursos</title>
+		<link rel="stylesheet" type="text/css" href="styles.css" />
+		<script language="javascript" src="codigo.js"></script>
+	</head>
+	<body>
+		<header>
+			<h1>ATIVIDADE DE JAVASCRIPT</h1>
+			<nav>
+				<ul>
+					<li><a href="calculadora.html">Calculadora</a></li>
+					<li><a href="cursos.html">Cursos</a></li>
+					<li><a href="tabela.html">Tabela</a></li>
+				</ul>
+			</nav>
+		</header>
+		<main>
+			<section class="container clearfix">
+				<h1>CURSOS</h1>
+				<div class="available-courses">
+					<label for="select-available">Cursos Disponíveis</label>
+					<select id="select-available" ondblclick="seleciona_cursos_disponiveis();" multiple>
+						<option>JS</option>
+						<option>JQuery</option>
+						<option>HTML</option>
+						<option>CSS</option>
+						<option>PHP</option>
+					</select>
+				</div>
+				<div class="chosen-courses">
+					<label for="select-chosen">Cursos Escolhidos</label>
+					<select id="select-chosen" ondblclick="seleciona_cursos_escolhidos();" multiple>
+					</select>
+				</div>
+			</section>
+		</main>
+		<footer>
+			<p>Mini Avaliação 1 - Heitor Kuba</p>
+			<p>Mini Avaliação 2 - Bruno Maximo e Melo</p>
+			<p>Mini Avaliação 3 - Bruno Maximo e Melo</p>
+		</footer>
+	</body>
+</html>
